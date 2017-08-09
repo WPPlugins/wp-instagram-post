@@ -1,0 +1,249 @@
+.woosocio_wrap{
+	width:100%;
+}
+div#woosocio-services-block {
+	display: block;
+	clear: both;
+	margin-bottom: 25px;
+	background-color: #fff;
+	padding: 25px 25px 5px 20px;
+	overflow: hidden;
+	width: 600px;
+	float:left;
+}
+
+/* Add the logos for the woosocio services */
+span.pub-logos {
+	float: left;
+	display: block;
+	width: 130px;
+	height: 75px;
+	margin-top: -18px;
+	margin-left: 5px;
+	vertical-align: top;
+}
+
+.left, .right{
+	width: 50%;
+	float: left;
+}
+
+div#facebook { background: url( woosocio-fb-2x.png ) no-repeat; background-size: 32px 32px; padding-left: 42px;background-position: 0px 0px;padding-top:5px; }
+div#twitter { background: url( assets/woosocio-twitter-2x.png ) no-repeat; background-size: 32px 32px; padding-left: 42px;background-position: 0px 0px;padding-top:5px;  }
+div#linkedin { background: url( woosocio-linkedin-2x.png )no-repeat; background-size: 32px 32px; padding-left: 42px;background-position: 0px 0px;padding-top:5px;  }
+div#tumblr { background: url( woosocio-tumblr-2x.png ) no-repeat; background-size: 32px 32px; padding-left: 42px;background-position: 0px 0px;padding-top:5px;  }
+div#path { background: url( woosocio-path-2x.png ) no-repeat;  background-size: 32px 32px; padding-left: 42px;background-position: 0px 0px;padding-top:5px;  }
+div#google_plus { background: url( woosocio-google-2x.png ) no-repeat;  background-size: 32px 32px; padding-left: 42px;background-position: 0px 0px;padding-top:5px;  }
+
+a.woosocio-profile-link, a.woosocio-profile-link:visited {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.woosocio-profile-link:hover {
+	color: #f1831e;
+}
+
+a.woosocio-add-connection, a.woosocio-add-connection:visited {
+	text-decoration: none;
+}
+
+a.woosocio-add-connection:hover {
+	color: #f1831e;
+}
+
+div.woosocio-service-entry {
+	clear: both;
+	margin-bottom: 10px;
+	padding: 10px 0 25px 0;
+	border-bottom: 1px #eee solid;
+	margin-right: 40px;
+	overflow: hidden;
+}
+
+div.woosocio-service-entry:last-of-type{
+	border-width: 0px;
+}
+
+div.woosocio-service-left {
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+	min-height: 35px;
+}
+
+
+div.woosocio-service-left a{
+	font-size: 24px;
+	text-decoration: none;
+}
+
+div.woosocio-service-left a:hover{
+	text-decoration: underline;
+}
+
+div.woosocio-service-right {
+	display: inline-block;
+	text-align: right;
+	float: right;
+	padding-top:5px;
+}
+
+div.woosocio-service-right ul {
+	margin-top: 0;
+}
+
+div.woosocio-service-right li {
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.woosocio-info {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url( info-2x.png );
+	background-size: 16px 16px;
+	text-indent: -99999px;
+	float: left;
+	cursor: help;
+	text-decoration: none;
+	margin-right: 10px;
+	margin-top:3px;
+}
+
+.pub-disconnect-button {
+	-webkit-border-image: none;
+	border-bottom-color: #CCC;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-left-color: #CCC;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: #CCC;
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: #CCC;
+	border-top-style: none;
+	border-top-width: 0px;
+	color: #CCC;
+	cursor: auto;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	height: auto;
+	line-height: 22px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	outline-color: #CCC;
+	outline-style: none;
+	outline-width: 0px;
+	overflow-y: visible;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	position: static;
+	right: auto;
+	text-align: left;
+	text-decoration: none;
+	top: auto;
+	vertical-align: baseline;
+	width: auto;
+	z-index: auto;
+}
+
+.pub-disconnect-button:hover {
+	color: #f1831e;
+}
+
+table#option-profile {
+	padding-bottom: 8px;
+}
+
+table#option-profile td {
+	font-family: "Lucida Grande",Verdana,Arial,sans-serif;
+	vertical-align: middle;
+}
+
+table#option-profile td.radio {
+	padding-right: 20px;
+}
+
+table#option-profile td.thumbnail {
+	padding-right: 20px;
+}
+
+table#option-profile td.details {
+	font-weight: bold; color: #333333
+}
+
+table#option-fb-fanpage td, table#option-fanpage td {
+	font-family: "Lucida Grande",Verdana,Arial,sans-serif;
+	vertical-align: middle;
+}
+
+table#option-fb-fanpage td.thumbnail, table#option-fanpage td.thumbnail  {
+	padding: 5px 20px 5px 20px;
+}
+
+table#option-fb-fanpage td.details, table#option-fanpage td.details {
+	width: 130px;
+	padding-right: 10px;
+}
+
+table#option-fb-fanpage td.details span.name, table#option-fanpage td.details span.name {
+	font-weight: bold; color: #333333;
+}
+
+table#option-fb-fanpage td.details span.category, table#option-fanpage td.details span.category {
+	font-size: 10px; color: #888888;
+}
+
+input.fb-options {
+	font-family: "Lucida Grande",Verdana,Arial,sans-serif;
+	font-size: 12px;
+}
+
+.pub-connection-error {
+	color: #ff0000;
+}
+
+.woosocio-about-us
+{
+	float:right;
+	width:300px;
+	height:auto;
+	/*border:#ccc 3px solid;*/
+	margin-right:25px;
+	/*margin-top:5px;*/
+	background-color:#EEEEEE;padding:10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.woosocio-about-us .box
+{
+	
+	background-color:#FFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding:5px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+
+.woosocio-about-us .box #wid
+{
+	height:auto;
+	text-align:center;	
+}
